@@ -1,0 +1,150 @@
+{
+    "datasets": [
+        {
+            "dataset_name": "WB90",
+            "file_path": "/content/drive/MyDrive/data/FINAL SELECTED DATA SET/clean data/WB90.csv",
+            "time_column": "cpcb_time",
+            "targets": [
+                {
+                    "column": "wt",
+                    "output_file": "WB_wt.json"
+                },
+                {
+                    "column": "toc",
+                    "output_file": "WB_toc.json"
+                },
+                {
+                    "column": "temperature",
+                    "output_file": "WB_temperature.json"
+                },
+                {
+                    "column": "ph",
+                    "output_file": "WB_ph.json"
+                },
+                {
+                    "column": "humidity",
+                    "output_file": "WB_humidity.json"
+                },
+                {
+                    "column": "do",
+                    "output_file": "WB_do.json"
+                },
+                {
+                    "column": "cod",
+                    "output_file": "WB_cod.json"
+                },
+                {
+                    "column": "cl",
+                    "output_file": "WB_cl.json"
+                },
+                {
+                    "column": "bod",
+                    "output_file": "WB_bod.json"
+                },
+                {
+                    "column": "air_wind_speed",
+                    "output_file": "WB_air_wind_speed.json"
+                },
+                {
+                    "column": "air_temp",
+                    "output_file": "WB_air_temp.json"
+                },
+                {
+                    "column": "air_pressure",
+                    "output_file": "WB_air_pressure.json"
+                }
+            ]
+        },
+        {
+            "dataset_name": "Dhaka",
+            "file_path": "/content/drive/MyDrive/data/FINAL SELECTED DATA SET/clean data/Dhaka.csv",
+            "time_column": "Date",
+            "targets": [
+                {
+                    "column": "Demand (MW)",
+                    "output_file": "Dhaka.json"
+                }
+            ]
+        },
+        {
+            "dataset_name": "Daily",
+            "file_path": "/content/drive/MyDrive/data/FINAL SELECTED DATA SET/clean data/Daily.csv",
+            "time_column": "date",
+            "targets": [
+                {
+                    "column": "stress_score",
+                    "output_file": "Daily_stress_score.json"
+                },
+                {
+                    "column": "spo2_avg_pct",
+                    "output_file": "Daily_spo2_avg_pct.json"
+                },
+                {
+                    "column": "sbp_mmHg",
+                    "output_file": "Daily_sbp_mmHg.json"
+                },
+                {
+                    "column": "resting_hr_bpm",
+                    "output_file": "Daily_resting_hr_bpm.json"
+                },
+                {
+                    "column": "dbp_mmHg",
+                    "output_file": "Daily_dbp_mmHg.json"
+                },
+                {
+                    "column": "caffeine_mg",
+                    "output_file": "Daily_caffeine_mg.json"
+                }
+            ]
+        },
+        {
+            "dataset_name": "Bitcoin",
+            "file_path": "/content/drive/MyDrive/data/FINAL SELECTED DATA SET/clean data/Bitcoin.csv",
+            "time_column": "Date",
+            "targets": [
+                {
+                    "column": "volume",
+                    "output_file": "Bitcoin_volume.json"
+                },
+                {
+                    "column": "open",
+                    "output_file": "Bitcoin_open.json"
+                },
+                {
+                    "column": "low",
+                    "output_file": "Bitcoin_low.json"
+                },
+                {
+                    "column": "high",
+                    "output_file": "Bitcoin_high.json"
+                },
+                {
+                    "column": "close",
+                    "output_file": "Bitcoin_close.json"
+                }
+            ]
+        },
+        {
+            "dataset_name": "AQI",
+            "file_path": "/content/drive/MyDrive/data/FINAL SELECTED DATA SET/clean data/AQI.csv",
+            "time_column": "DATE",
+            "targets": [
+                {
+                    "column": "AQI Value",
+                    "output_file": "AQI.json"
+                }
+            ]
+        },
+        {
+            "dataset_name": "Antam",
+            "file_path": "/content/drive/MyDrive/data/FINAL SELECTED DATA SET/clean data/Antam.csv",
+            "time_column": "DATE",
+            "targets": [
+                {
+                    "column": "Gold Price",
+                    "output_file": "Antam.json"
+                }
+            ]
+        }
+    ]
+}
